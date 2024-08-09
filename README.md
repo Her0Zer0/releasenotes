@@ -5,7 +5,7 @@ Release Notes is a globally scoped app that allows users to create notes using a
 **Process Overview:**
 When a user completes their story and wishes to create a release note to provide information about the latest development, they can use the form link Add/Edit Release Note to display a modal form for entry. Once the release note is submitted and is in a published state, it can be seen in the portal widget if it matches the configuration rule criteria.
 
-<br/><br/><br/>
+<br/><br/>
 ## Getting Started
 
 ### Activating Add/Edit Release Note UI Action
@@ -62,7 +62,14 @@ A form modal will appear and you will need to fill in the following fields.
 
 **Extra Content**: Link that wraps the subject and opens a new window if you want to provide more content to your readers that can't be said in a release note. 
 
-**Type**: The type of change/enhancement/feature that the release note is trying to describe. Options available are New Feature, New Product, Product Change, API, UI/UX, and Bug Fix.
+**Type**: The type of change/enhancement/feature that the release note is trying to describe. 
+- The options available are:
+  - New Feature
+  - New Product
+  - Product Change
+  - API
+  - UI/UX
+  - Bug Fix.
 
 **Content**: This is the note itself and is rendered as HTML as provided in the note. 
 
@@ -173,4 +180,8 @@ Name: Release Notes With Filter
 ID: release_note_w_filter<br/>
 Action: Provides dropdown selectable options for Story [rm_story] release notes if the Release [rm_release_scrum] has been completed.<br/>
 Only useful if you have Agile Development installed in your instance.  
+
+<br/><br/>
+#### Contributors and Thanks
+Thanks to Tina Watson for the idea development and input on the review. 
 
