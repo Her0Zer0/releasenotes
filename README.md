@@ -1,4 +1,4 @@
-# releasenotesv2
+# releasenotes
 
 Release Notes is a globally scoped app that allows users to create notes using a form link option that provides a modal form for data entry. Included with the update set is an example portal widget that pulls in information using either a filter or configuration rule. The Release Note table allows references to any table available in the instance and links them with a Document ID. 
 <br/><br/>
