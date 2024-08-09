@@ -11,42 +11,44 @@ When a user completes their story and wishes to create a release note to provide
 ### Activating Add/Edit Release Note UI Action
 After committing the import set to your instance. Navigate to **System Definition > UI Actions** and filter the list for **Add/Edit Release Note**. 
 
-This UI Action is inactive by default because it is set on the Global table. If activated in the current state, this Form Link will show on every form. If you want it on a specific form, change the table you wish to have it available on or make your changes and use **Insert and Stay** in the context menu to create a copy. 
+This UI Action is inactive by default because it is set on the Global table. If activated in the current state, this Form Link will show on every form. If you want it on a specific form, change it to the table you wish to have it available on or make your changes and use **Insert and Stay** in the context menu to create a copy. 
 
-**NOTE:** The form link is only visible to users with the rn_editor role and after the record has been set to inactive by default. 
+>**NOTE:** _The form link is only visible to users with the rn_editor role and after the record has been set to inactive by default._ 
+
 <br/><br/>
 ### Creating a Release Note Config Rule
 
 **Navigate to Release Notes > Release Note Config Rules** and click on **New**.
 
-Fill in the following fields. 
+Fill in the following fields:
 
 **Name**: Used for identifying rules. 
 
-**Table**: The records table you wish to pull relative release notes against for your portal widget. 
+**Table**: The table to query against for release notes.
 
-**Filter By**: This is used to narrow the search of release notes. 
+**Filter By**: Used to narrow the search of release notes. 
 
 **Description**: Some details on what is expected from this rule. 
 
 Then click **Submit**.
 
-**NOTE**: There is an example included for Change Request [change_request] that queries records that have a Category of Software and have been closed in the last 30 days. This filter allows the Release Notes widget to pull Published Release Notes for Change records that match that filter. 
+>**NOTE**: An example is included for Change Request [change_request] with a simple filter. This filter allows the Release Notes widget to pull Published Release Notes for Change records that match that filter. 
 
 <br/><br/>
 ### Updating the Portal Page
 
 Navigate to **Release Notes > Demo**. 
 
-On click, the demo Portal Page Release Notes [release_notes] is visible and if there are no notes available or the widget doesn't have a filter you should see an informative message. 
+On click of the demo Portal Page Release Notes [release_notes] is visible. If notes are not available or the widget doesn't have a filter you should see an informative message. 
 
-To see Release Notes by our Config Rules, we need to add that on the portal page. 
+To see Release Notes by _Release Note Config Rules_, one should be added on the portal page. 
 
-Navigate to **Service Portal > Pages** and search for **release_notes** in the **ID** field. Open the record and scroll to the bottom of the page and locate the Form link **Open in Designer**.
+Navigate to **Service Portal > Pages** and search for **release_notes** in the **ID** field. Open the record and scroll to the bottom of the page. Once there, click the Form link **Open in Designer**.
 
-In the **Page Designer** click on the pencil icon to edit the widget options. Add your **Release Note Config Rule** and click save. 
+In the **Page Designer** click the pencil icon to edit the widget options. Add your **Release Note Config Rule** and click save. 
 
-Navigate back to the **Release Notes > Demo** page and if you have created notes already that are published and meet the filter criteria you should now be able to see them. 
+After creating release notes and publishing those notes on records that match the Release Note Config Rule filter, navigate back to **Release Notes > Demo** and view the changes.
+
 <br/><br/>
 ### Creating a Release Note. 
 
