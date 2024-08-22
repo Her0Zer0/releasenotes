@@ -183,5 +183,7 @@ Only useful if you have Agile Development installed in your instance.
 
 <br/><br/>
 #### Contributors and Thanks
-Thanks to Tina Watson for the idea development and input on the review. 
+Thanks to [Tina Watson](https://www.linkedin.com/in/twatson/) for the idea development and input on the review.
+
+Thanks to [Manuel Gutierrez](https://www.linkedin.com/in/manuel-gutierrez-5136b6109/) and [Jongwon Kim](https://www.linkedin.com/in/jongwon-kim-b8a212159/) for testing and documentation feedback. 
 
